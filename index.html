@@ -1,227 +1,531 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Reponsive - building the future of manager development</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Google Fonts -->
 
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
 
-<body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet" >
 
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
+
+    <title>Responsive AI</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="container fixed-top">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 main-header">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img src="imgs/main-logo.png" height="60px">
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-dark">How It Works</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Solutions</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">Sign In</button>
+          <button type="button" class="btn btn-primary">Let's Talk</button>
         </div>
+      </header>
     </div>
-    <!-- /End Preloader -->
 
-    <!-- Start Header Area -->
-    <header class="header navbar-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="nav-inner">
-                        <!-- Start Navbar -->
-                        <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/white-logo.svg" alt="Logo">
-                            </a>
-                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a href="#home" class="page-scroll active"
-                                            aria-label="Toggle navigation">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Solutions</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Overview</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Customers</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Insights</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">About</a>
-                                    </li>
-                                </ul>
-                            </div> <!-- navbar collapse -->
-                            <div class="button add-list-button">
-                                <a href="javascript:void(0)" class="btn">Sign Up & Log In</a>
-                            </div>
-                        </nav>
-                        <!-- End Navbar -->
-                    </div>
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </header>
-    <!-- End Header Area -->
-
-    <!-- Start Hero Area -->
-    <section id="home" class="hero-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">A powerful platform for your development.</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">Over 90% of first-time managers are unprepared to lead others, 60% fail in their first two years. Responsive is changing that.</p>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12 col-12">
-                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/images/hero/phone.png" alt="#">
-                    </div>
-                </div>
-            </div>
+  <!-- Hero Banner -->
+  <div class="mast-head">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6 text-center">
+          <img src="imgs/mast-head-iphone.png" class="iphone-mast-head" alt="Bootstrap Themes" loading="lazy">
         </div>
-    </section>
-    <!-- End Hero Area -->
-
-    <!-- Start Features Area -->
-    <section id="features" class="features section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Responsive is building the future of manager development.</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">A data-science driven platform that provides you with real-time feedback, relevant and actionable resources, and the performance analytics you need to manage and lead people successfully.
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-cloud-upload"></i>
-                        <h3>Feedback</h3>
-                        <p>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-lock"></i>
-                        <h3>Learning</h3>
-                        <p>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-reload"></i>
-                        <h3>Practice</h3>
-                        <p>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-shield"></i>
-                        <h3>Analytics</h3>
-                        <p>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-            </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Discover<br><strong>Responsive</strong>Today</h1>
+          <p class="lead">The world's first personalized coaching app for managers' team success that is fully integrated into your workflow.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">See Plans</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+          </div>
         </div>
-    </section>
-    <!-- End Features Area -->
+      </div>
+    </div>
+  </div>
 
-    <!-- Start Footer Area -->
-    <footer class="footer">
-        <!-- Start Footer Top -->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <!-- Single Widget -->
-                        <div class="single-footer f-about">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo/white-logo.svg" alt="#">
-                                </a>
-                            </div>
-                            <p>Contact us.</p>
-                            
-                            <p class="copyright-text">michel@beresponsive.ai</br>(650) 000-0000</p>
-                            <p class="copyright-text">123 Palo Alto Way</br>Palo Alto, CA 00000</p>
-
-
-
-                        </div>
-                        <!-- End Single Widget -->
-                    </div>
-
-                </div>
-            </div>
+   <!-- People Centered Culture -->
+  <div class="people-centered">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>We help you build people-centered culture</h1>
+          <p>and adapt to managers’ daily workflows because our statistics found that</p>
+          <img src="imgs/one-two.png" style="margin-right:60px;"><img src="imgs/hundered-kay.png" style="margin-right:60px;"><img src="imgs/sixty-percent.png">
         </div>
-        <!--/ End Footer Top -->
-    </footer>
-    <!--/ End Footer Area -->
+      </div>
+    </div>
+  </div>
 
-    <!-- ========================= scroll-top ========================= -->
-    <a href="#" class="scroll-top">
-        <i class="lni lni-chevron-up"></i>
-    </a>
+  <!-- How Responsive Works -->
+  <div class="how-responsive-works">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>How Responsive Works</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <img src="imgs/micro-feedback-icon.svg">Micro-Feedback
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <img src="imgs/personalized-coaching-icon.svg">Personalised Coaching
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <img src="imgs/targeted-practice-icon.svg">Targeted Practice
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <img src="imgs/targeted-resources.svg">Targeted Resources
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <img src="imgs/action-learning-icon.svg">Action Learning
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <img src="imgs/dashboard-analytics-icon.svg">Dashboard Analytics
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <img src="imgs/community-icon.svg">Community
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Users complete quick, frequent, and activity-based feedback that feeds into Responsive;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 how-responsive-woks-main-image">
+          <img src="imgs/how-responsive-woks-main.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Solutions -->
+  <div class="solutions-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Solutions</h1>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal"><img src="imgs/user-icon.png">Individuals</h4>
+            </div>
+            <div class="card-body">
+              <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><img src="imgs/check-icon-white.svg">Components-driven system</li>
+                <li><img src="imgs/check-icon-blue.svg">Sales-boosting landing pages</li>
+                <li><img src="imgs/check-icon-blue.svg">Awesome Feather icons pack</li>
+                <li><img src="imgs/check-icon-blue.svg">Themed into 3 different styles</li>
+                <li><img src="imgs/check-icon-blue.svg">Will help to learn Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal"><img src="imgs/user-icon.png">Teams</h4>
+            </div>
+            <div class="card-body">
+              <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><img src="imgs/check-icon-white.svg">Components-driven system</li>
+                <li><img src="imgs/check-icon-white.svg">Sales-boosting landing pages</li>
+                <li><img src="imgs/check-icon-blue.svg">Awesome Feather icons pack</li>
+                <li><img src="imgs/check-icon-blue.svg">Themed into 3 different styles</li>
+                <li><img src="imgs/check-icon-blue.svg">Will help to learn Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal"><img src="imgs/user-icon.png">Companies</h4>
+            </div>
+            <div class="card-body">
+              <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><img src="imgs/check-icon-white.svg">Components-driven system</li>
+                <li><img src="imgs/check-icon-white.svg">Sales-boosting landing pages</li>
+                <li><img src="imgs/check-icon-white.svg">Awesome Feather icons pack</li>
+                <li><img src="imgs/check-icon-white.svg">Themed into 3 different styles</li>
+                <li><img src="imgs/check-icon-white.svg">Will help to learn Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/glightbox.min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script type="text/javascript">
+  <!-- Main Sections -->
+  <div class="main-sections">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h6>Human-Centered</h6>
+          <h2>Coaching</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="imgs/coaching-image.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="imgs/practice-image.png">
+        </div>
+        <div class="col-md-6">
+          <h6>Daily Data-driven Recommended</h6>
+          <h2>Practice</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h6>360 Degrees</h6>
+          <h2>Feedback</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="imgs/feedback-image.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="imgs/growth-image.png">
+        </div>
+        <div class="col-md-6">
+          <h6>Feature heading or subtitle</h6>
+          <h2>Growth</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h6>Coaching that is the most</h6>
+          <h2>Privacy</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="imgs/privacy-image.png">
+        </div>
+      </div>
+    </div>
+  </div>
 
-        //====== counter up 
-        var cu = new counterUp({
-            start: 0,
-            duration: 2000,
-            intvalues: true,
-            interval: 100,
-            append: " ",
-        });
-        cu.start();
-    </script>
-</body>
+  <!-- Features Section -->
+  <div class="features-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="imgs/features-icon.svg" class="feature-icon">
+          <h1>Features</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+        </div>
+      </div>
+      <div class="row features-row">
+        <div class="col-md-4">
+          <img src="imgs/human-centered-icon.png">
+          <h4>Human-Centered</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/agility-icon.png">
+          <h4>Agility</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/analytics-icon.png">
+          <h4>Analytics</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+      </div>
+      <div class="row features-row">
+        <div class="col-md-4">
+          <img src="imgs/privacy-icon.png">
+          <h4>Privacy</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/integrations-icon.png">
+          <h4>Integrations</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/community-icon.png">
+          <h4>Community</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- About Section -->
+  <div class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="imgs/about-graphic.png">
+        </div>
+        <div class="col-md-6">
+          <h1>About Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Vivamus rhoncus dignissim  massa efficitur dapibus.</p>
+          <h3>Mission</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin vitae nibh odio.  Vivamus rhoncus dignissim massa efficitur dapibus.</p>
+          <h3>Company Overview</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin vitae nibh odio.  Vivamus rhoncus dignissim massa efficitur dapibus.</p>
+          <h3>Values</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin vitae nibh odio.  Vivamus rhoncus dignissim massa efficitur dapibus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Coming Soon-->
+
+  <div class="coming-soon text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Our app is coming soon!</h1>
+          <h3>help you become, by leading the way for future leaders.</h3>
+          <button type="button" class="btn btn-primary">Sign Up</button>
+          <div class="coming-soon-apple-android">
+            <img src="imgs/appstore.png"><img src="imgs/googleplay.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Let's Talk-->
+  <div class="lets-talk ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1>Let's Talk</h1>
+          <p>Lorem ipsum dolor sit amet,.</p>
+          <p>Consectetur adipiscing elit. Proin vitae nibh odio.  Vivamus massa efficitur dapibus.</p>
+        </div>
+        <div class="col-md-8">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="row" style="margin-bottom:17px;">
+                <div class="form-group col-md-6">
+                  <label>Role</label>
+                </div>
+                <div class="form-group col-md-6">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Individual</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Manager</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Company</label>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Message (Optional)" id="floatingTextarea2" style="height: 100px"></textarea>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="imgs/footer-logo.png" height="50px">
+            <h4 style="margin-bottom:16px;">Get in touch</h4>
+            <p>The latest news, articles, and<br>resources, sent to your inbox weekly</p>
+            <div class="input-group w-50">
+              <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Enter Your Email" aria-describedby="basic-addon1">
+              <span class="input-group-text" id="basic-addon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
+</svg>
+              </span>
+            </div>
+            <button type="button" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+</svg>
+            </button>
+            <button type="button" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+</svg>
+            </button>
+            <button type="button" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+</svg>
+            </button>
+          </div>
+          <div class="col-md-2">
+            <h4>Solutions</h4>
+            <ul class="list-unstyled">
+              <li>Marketing</li>
+              <li>Analytics</li>
+              <li>Commerce</li>
+              <li>Insights</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Support</h4>
+            <ul class="list-unstyled">
+              <li>Pricing</li>
+              <li>Documentation</li>
+              <li>Guides</li>
+              <li>API Status</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Company</h4>
+            <ul class="list-unstyled">
+              <li>Features</li>
+              <li>Solutions</li>
+              <li>About</li>
+              <li>Individuals</li>
+              <li>Companies</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Legal</h4>
+            <ul class="list-unstyled">
+              <li>Claim</li>
+              <li>Privacy</li>
+              <li>Teams</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center">Copyright 2021 © Responsive AI.  All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </dvi>
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
