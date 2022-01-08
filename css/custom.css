@@ -291,7 +291,7 @@ footer ul li{
     box-shadow: none;
 }
 .how-responsive-works h1  {
-    font-size: 48px;
+    font-size: 37px;
     margin-bottom: 37px;
     font-weight: 600;
 }
@@ -327,6 +327,9 @@ footer ul li{
     font-weight: 300 !important;
     line-height: 71px !important;
     margin-bottom: 40px !important;
+}
+.mast-head h1 strong {
+    font-weight: 600 !important;
 }
 .mast-head p {
     font-size: 26px !important;
