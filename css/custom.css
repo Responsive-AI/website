@@ -35,7 +35,7 @@ p {
     background-color: #023047;
     color: white;
     padding-top: 190px;
-    padding-bottom: 190px;
+    padding-bottom: 50px;
     text-align: center;
 }
 .how-responsive-works {
@@ -51,8 +51,9 @@ p {
     padding-bottom: 108px;
 }
 .features-section {
-    padding-top: 150px;
     padding-bottom: 150px;
+    background-color: #023047;
+    color: white;
 }
 .about-section {
     padding-top: 85px;
@@ -182,7 +183,7 @@ footer ul li{
 }
 .features-section h1 {
     margin-bottom: 24px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
 }
 .features-section h4 {
