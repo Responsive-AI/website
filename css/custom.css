@@ -36,6 +36,22 @@ p {
     align-items: center;
     color: white;
 }
+.mast-head .iphone-carousel {
+    height: 510px;
+    width: 250px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 512px;
+    overflow-y: hidden;
+}
+.mast-head .iphone-carousel .iphone-carousel-frame {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    max-width: 100%;
+}
 .people-centered {
     background-color: #023047;
     color: white;
