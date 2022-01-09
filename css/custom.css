@@ -2,6 +2,9 @@
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Nunito', sans-serif;
 }
+img {
+    max-width: 100%;
+}
 p {
     font-weight: 300;
     font-size: 21.33px;
@@ -26,10 +29,6 @@ p {
     -ms-flex-align: center;
     align-items: center;
     color: white;
-}
-.iphone-mast-head {
-    position: absolute;
-    bottom: 0;
 }
 .people-centered {
     background-color: #023047;
@@ -464,4 +463,13 @@ body .fixed-top  {
     .main-header ul {
         display: none;
     }
+ }
+ @media (max-width: 767.98px) {
+    .mast-head {
+        padding-top: 110px;
+        padding-bottom: 110px;
+        background-position: right;
+        height: auto;
+    }
+    
  }
