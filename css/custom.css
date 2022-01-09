@@ -46,6 +46,12 @@ p {
     height: 512px;
     overflow-y: hidden;
 }
+.mast-head .w-100 {
+    width: 94%!important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 5px !important;
+}
 .mast-head .iphone-carousel .iphone-carousel-frame {
     position: absolute;
     top: 1px;
