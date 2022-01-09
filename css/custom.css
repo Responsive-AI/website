@@ -1,4 +1,7 @@
 /* This file contains all the custom css */
+html {
+    overflow-x: hidden;
+}
 body {
     overflow-x: hidden;
 }
