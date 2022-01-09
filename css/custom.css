@@ -269,20 +269,22 @@ footer ul li{
     font-weight: 600;
 }
 .how-responsive-works .accordion-button {
-    font-size: 32px;
+    font-size: 18px;
     border: none;
+    font-weight: 600;
 }
 .how-responsive-works .accordion-body {
-    font-size: 23px;
+    font-size: 14px;
     color: #023047;
-    padding-left: 82px;
-    padding-bottom: 35px;
+    padding-left: 64px;
+    padding-bottom: 17px;
 }
 .how-responsive-works .accordion-item {
     border: none;
 }
 .how-responsive-works .accordion-button img {
     margin-right: 16px;
+    height: 25px;
 }
 .how-responsive-works .accordion-button:not(.collapsed) {
     background: transparent;
@@ -424,6 +426,30 @@ body .fixed-top  {
 }
 .mast-head .iphone-mast-head {
     height: 650px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-size: 21px;
+    font-weight: 500;
+    color: #023047;
+}
+.nav-tabs .nav-link {
+    font-size: 21px;
+    font-weight: 500;
+    color: #023047;
+    border-bottom: solid 3px #F3F4F6;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 3px solid #023047;
+}
+.nav-link {
+    padding: 10px 24px;
 }
 @media (max-width: 991.98px) { 
     .mast-head .iphone-mast-head {
