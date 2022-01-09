@@ -339,8 +339,10 @@ footer ul li{
     margin-bottom: 15px;
 }
 .people-centered h1 {
-    font-size: 55px;
-    margin-bottom: 15px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
 }
 .people-centered p {
     font-size: 24px;
@@ -471,6 +473,12 @@ body .fixed-top  {
 }
 .nav-link {
     padding: 10px 24px;
+}
+.tab-pane p {
+    font-size: 14px;
+    padding-left: 22px;
+    color: #023047;
+    font-weight: 600;
 }
 @media (max-width: 991.98px) { 
     .mast-head .iphone-mast-head {
