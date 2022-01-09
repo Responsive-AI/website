@@ -183,7 +183,19 @@ footer ul li{
     margin-right: 15px;
 }
 .about-section {
-    color: #023047;
+    color: white;
+    position: relative;
+    background-image: url(../imgs/coming-soon-bg.png);
+    background-color: #023047;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.about-section img {
+    position: absolute;
+    left: 0;
+    top: 79px;
+    width: 930px;
 }
 .about-section h1 {
     font-size: 60px;
