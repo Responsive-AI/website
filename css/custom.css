@@ -187,9 +187,9 @@ footer ul li{
     position: relative;
     background-image: url(../imgs/coming-soon-bg.png);
     background-color: #023047;
-    background-size: 900px;
+    background-size: 1230px;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: -310px center;
 }
 .about-section img {
     position: absolute;
@@ -224,7 +224,6 @@ footer ul li{
     margin-bottom: 9px;
 }
 .features-section p {
-    max-width: 870px;
     margin: auto;
     margin-bottom: 100px;
 }
