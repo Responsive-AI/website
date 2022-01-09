@@ -88,7 +88,7 @@ p {
     background-color: #FFB703;
 }
 .about-section img {
-    width: 100%;
+
 }
 .coming-soon {
     background-image: url('../imgs/coming-soon-bg.png');
@@ -191,17 +191,10 @@ footer ul li{
 .about-section {
     color: white;
     position: relative;
-    background-image: url(../imgs/coming-soon-bg.png);
     background-color: #023047;
     background-size: 1230px;
     background-repeat: no-repeat;
     background-position: -310px center;
-}
-.about-section img {
-    position: absolute;
-    left: 0;
-    top: 79px;
-    width: 930px;
 }
 .about-section h1 {
     font-size: 60px;
@@ -497,7 +490,7 @@ body .fixed-top  {
     color: #023047;
     font-weight: 600;
 }
-@media (max-width: 991.98px) { 
+@media (max-width: 993px) { 
     .mast-head .iphone-mast-head {
         display: none;
     }
