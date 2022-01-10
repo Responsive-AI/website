@@ -69,6 +69,10 @@ p {
     padding-top: 160px;
     padding-bottom: 160px;
 }
+.how-responsive-works .accordion-button {
+    width: 636px;
+    position: relative;
+}
 .solutions-section {
     padding-top: 115px;
     padding-bottom: 115px;
@@ -353,7 +357,7 @@ footer ul li{
     max-width: 700px;
 }
 .people-centered img {
-    width: 350px;
+    width: 250px;
     margin-bottom: 15px;
 }
 .people-centered h1 {
@@ -390,7 +394,7 @@ footer ul li{
     padding-bottom: 13px;
     padding-right: 48px !IMPORTANT;
     padding-left: 48px !important;
-    border-radius: 25px;
+    border-radius: 32px;
 }
 .mast-head .btn-primary:hover {
     background-color: #219EBC;
@@ -403,11 +407,11 @@ footer ul li{
     color: white;
     font-weight: 600;
     font-size: 19px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-right: 48px !IMPORTANT;
-    padding-left: 48px !important;
-    border-radius: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 36px !IMPORTANT;
+    padding-left: 36px !important;
+    border-radius: 30px;
 }
 .mast-head .btn-outline-secondary:hover {
     background-color: #219EBC;
@@ -514,7 +518,7 @@ body .fixed-top  {
     .mast-head {
         padding-top: 110px;
         padding-bottom: 110px;
-        background-position: right;
+        background-position: left;
         height: auto;
     }
     .top-footer button {
