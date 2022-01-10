@@ -77,6 +77,14 @@ p {
     padding-top: 108px;
     padding-bottom: 108px;
 }
+.main-sections img {
+    width: 400px;
+    max-width: 100%;
+}
+.main-sections .laptopImage {
+    width: 600px;
+    max-width: 100%;
+}
 .features-section {
     padding-bottom: 150px;
     background-color: #023047;
@@ -241,7 +249,7 @@ footer ul li{
     max-width: 440px;
 }
 .main-sections img {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .main-sections h6 {
     margin-top: 33px;
