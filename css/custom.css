@@ -28,6 +28,9 @@ p {
 .main-header ul li {
     display: inline-block !important;
 }
+.main-header .navDiv {
+    text-align: right;
+}
 .mast-head {
     background-image: url('../imgs/mast-head-bg.png');
     height: 100vh;
