@@ -342,7 +342,7 @@ footer ul li{
     font-weight: 600;
 }
 .how-responsive-works .accordion-button::after {
-    margin-left: 24px;
+    margin-right: 24px;
 }
 .how-responsive-works {
     position: relative;
