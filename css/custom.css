@@ -95,12 +95,16 @@ p {
     color: white;
 }
 .about-section {
-    padding-top: 85px;
-    padding-bottom: 85px;
     background-color: #FFB703;
 }
-.about-section img {
-
+.about-section .first-column-about {
+    background: url('../imgs/coming-soon-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.about-section .second-column-about {
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
 .coming-soon {
     background-image: url('../imgs/coming-soon-bg.png');
