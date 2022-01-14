@@ -22,6 +22,12 @@ p {
 .main-header a {
     color: white;
 }
+.main-header ul {
+    display: inline-block;
+}
+.main-header ul li {
+    display: inline-block !important;
+}
 .mast-head {
     background-image: url('../imgs/mast-head-bg.png');
     height: 100vh;
@@ -430,8 +436,8 @@ body .fixed-top  {
 }
 .main-header a {
     font-size: 17px;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
 }
 .main-header a:hover {
     color: #219EBC;
