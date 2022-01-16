@@ -534,9 +534,9 @@ body .fixed-top  {
     .main-header button {
         display: none;
     }
-    .main-header ul {
+    /* .main-header ul {
         display: none;
-    }
+    } */
     .mast-head {
         padding-top: 110px;
         padding-bottom: 110px;
