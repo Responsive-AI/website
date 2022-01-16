@@ -340,7 +340,7 @@ footer ul li{
 }
 .how-responsive-works .accordion-button img {
     margin-right: 16px;
-    height: 25px;
+    /* height: 25px; */
 }
 .how-responsive-works .accordion-button:not(.collapsed) {
     background: transparent;
