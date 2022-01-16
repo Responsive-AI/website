@@ -94,6 +94,15 @@ p {
     width: 400px;
     max-width: 100%;
 }
+.mobile-row img {
+    width: 280px;
+    max-width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mobile-column {
+    text-align: center;
+}
 .main-sections .laptopImage {
     width: 600px;
     max-width: 100%;
@@ -265,7 +274,7 @@ footer ul li{
 .main-sections p {
     max-width: 440px;
 }
-.main-sections img {
+#main-features-section .row {
     margin-bottom: 100px;
 }
 .main-sections h6 {
@@ -385,7 +394,7 @@ footer ul li{
 }
 .mast-head h1 {
     font-size: 62px;
-    font-weight: 300 !important;
+    font-weight: 100 !important;
     line-height: 71px !important;
     margin-bottom: 40px !important;
 }
