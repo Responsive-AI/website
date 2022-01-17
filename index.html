@@ -30,29 +30,32 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div class="container fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="imgs/main-logo.png" height="60px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#how-it-works">How It Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#main-features-section">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-section">About</a>
-            </li>
-          </ul>
-          <a href="#lets-talk"><button type="button" class="btn btn-primary">Let's Talk</button></a>
-        </div>
+    <div class="fixed-top pt-3 pb-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imgs/main-logo.png" height="60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <span class="ms-auto"></span>
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#main-features-section">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-section">About</a>
+                </li>
+              </ul>
+              <a href="#lets-talk"><button type="button" class="btn btn-primary">Let's Talk</button></a>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
   </div>
     <!-- <div class="container fixed-top">
       <header class="main-header">
@@ -703,16 +706,14 @@
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script type='text/javascript'>
-      window.onhashchange=hashTriggerTab;
-      window.onload=hashTriggerTab;
-      
-      function hashTriggerTab(){
-          var current_hash=window.location.hash;
-          if(current_hash.substring(0,1)=='#')current_hash=current_hash.substring(1);
-          if(current_hash!=''){
-              var trigger=document.querySelector('.nav-tabs a[href="#'+current_hash+'"]');
-              if(trigger)trigger.click();
-          }
+      var hash = location.hash.split('?')[0];
+      if(hash) {
+        var $link = $('[href=' + hash + ']');
+        var parents = $link.parents('.tab-pane').get();
+        $(parents.reverse()).each(function() {
+          $('[href=#' + this.id + ']').tab('show') ;
+        });
+        $link.tab('show');
       }
     </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->

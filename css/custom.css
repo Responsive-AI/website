@@ -67,6 +67,15 @@ p {
     right: 0;
     max-width: 100%;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 17px;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #219EBC;
+}
 .people-centered {
     background-color: #023047;
     color: white;
@@ -440,8 +449,13 @@ footer ul li{
     border: solid 4px #219EBC;
     color: white;
 }
-body .fixed-top  {
-    position: absolute;
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+    padding: 10px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../imgs/menu-icon.svg');
 }
 .main-header {
     padding-top: 30px !important;
@@ -467,7 +481,7 @@ body .fixed-top  {
     font-size: 16px;
     font-weight: 600;
 }
-.main-header .btn-primary {
+.navbar-light .btn-primary {
     border: none;
     color: white;
     background-color: #219EBC;
@@ -478,8 +492,10 @@ body .fixed-top  {
     border-radius: 25px;
     padding-right: 25px;
     padding-left: 25px;
+    margin-right: 24px !important;
+    margin-left: 24px !important;
 }
-.main-header .btn-primary:hover {
+.navbar-light .btn-primary:hover {
     border: none;
     color: #219EBC;
     background-color: white;
@@ -538,13 +554,30 @@ body .fixed-top  {
         display: none;
     } */
     .mast-head {
-        padding-top: 110px;
+        padding-top: 160px;
         padding-bottom: 110px;
         background-position: left;
         height: auto;
     }
     .top-footer button {
         margin-bottom: 20px;
+    }
+    body .fixed-top  {
+        position: absolute;
+        background: #023047;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 0px !important;
+    }
+    .navbar-light .btn-primary {
+        margin-left: 0px !important;
+    }
+    .navbar-collapse {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 22px;
     }
  }
  @media (max-width: 767.98px) {
