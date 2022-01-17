@@ -31,6 +31,9 @@ p {
 .main-header .navDiv {
     text-align: right;
 }
+.fixed-top {
+    position: absolute;
+}
 .mast-head {
     background-image: url('../imgs/mast-head-bg.png');
     height: 100vh;
