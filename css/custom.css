@@ -2,33 +2,53 @@
 html {
     overflow-x: hidden;
 }
+
 body {
     overflow-x: hidden;
 }
+
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Nunito', sans-serif;
 }
+
 img {
     max-width: 100%;
 }
+
 p {
     font-weight: 300;
     font-size: 21.33px;
 }
+
+.logo {
+    width: 205px;
+    margin-left: -35px;
+}
+
+.be-responsive {
+    padding-top: 75px;
+    padding-left: 29px;
+}
+
 .main-header {
     margin-bottom: 0 !important;
     color: white;
 }
+
 .main-header a {
     color: white;
 }
+
 .main-header ul {
     display: inline-block;
 }
+
 .main-header ul li {
     display: inline-block !important;
 }
+
 .main-header .navDiv {
+   
     text-align: right;
 }
 .fixed-top {
@@ -50,8 +70,8 @@ p {
 }
 .mast-head .iphone-carousel {
     height: 510px;
-    width: 250px;
-    margin-top: 40px;
+    width: 230px;
+    margin-top: 108px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -82,13 +102,12 @@ p {
 .people-centered {
     background-color: #023047;
     color: white;
-    padding-top: 190px;
+    padding-top: 70px;
     padding-bottom: 50px;
     text-align: center;
 }
 .how-responsive-works {
     padding-top: 160px;
-    padding-bottom: 160px;
 }
 .how-responsive-works .accordion-button {
     width: 636px;
@@ -392,7 +411,6 @@ footer ul li{
 }
 .people-centered img {
     width: 250px;
-    margin-bottom: 15px;
 }
 .people-centered h1 {
     max-width: 900px;
@@ -402,7 +420,7 @@ footer ul li{
 }
 .people-centered p {
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .mast-head h1 {
     font-size: 62px;
@@ -485,30 +503,22 @@ footer ul li{
     font-weight: 600;
 }
 .navbar-light .btn-primary {
-    border: none;
+    border: #219EBC;
     color: white;
     background-color: #219EBC;
     font-size: 16px;
     font-weight: 600;
     padding-top: 11px;
     padding-bottom: 11px;
-    border-radius: 25px;
+    border-radius: 14px;
     padding-right: 25px;
     padding-left: 25px;
     margin-right: 24px !important;
     margin-left: 24px !important;
 }
 .navbar-light .btn-primary:hover {
-    border: none;
     color: #219EBC;
     background-color: white;
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    border-radius: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
 }
 .mast-head .iphone-mast-head {
     height: 650px;
@@ -543,6 +553,49 @@ footer ul li{
     color: #023047;
     font-weight: 600;
 }
+
+.footer-list-item {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.space {
+    padding-top: 108px;
+}
+
+.message-sent {
+    width: 340px;
+    height: 49px;
+    background-color: rgb(35, 192, 120);
+    margin-top: 20px;
+    display: none;
+}
+
+.thankyou-message {
+    padding-top: 13px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.pie-image-1, .pie-image-2 {
+    margin-right: 50px;
+}
+
+.space-top {
+    margin-top: 25px;
+}
+
+.space-bottom {
+    margin-bottom: 25px;
+}
+
+#thanks-message {
+    display: none;
+}
+
 @media (max-width: 993px) { 
     .mast-head .iphone-mast-head {
         display: none;
@@ -558,8 +611,7 @@ footer ul li{
     } */
     .mast-head {
         padding-top: 160px;
-        padding-bottom: 110px;
-        background-position: left;
+        background-position: center;
         height: auto;
     }
     .top-footer button {
@@ -583,11 +635,146 @@ footer ul li{
         font-size: 22px;
     }
     .navbar img {
-        width: 70%;
+        width: 100%;
         height: auto;
     }
- }
- @media (max-width: 767.98px) {
+} 
+
+@media (max-width: 991px) {
+    .pie-image-1 {
+        margin-right: 8px;
+    }
+
+    .pie-image-2 {
+        margin-left: 8px;
+        margin-right: 0;
+    }
+
+    .mast-head {
+        background-position: 28%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pie-image-1 {
+        margin-right: 0;
+    }
+
+    .pie-image-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section-center {
+        padding: 10px;
+        margin-top: 25px;
+        text-align: center;
+    }
     
+    .main-sections p {
+        max-width: 520px;
+    }
+
+    .features-section h1 {
+        font-size: 1.550rem;
+    }
+
+    .mast-head {
+        background-position: 34%
+    }
+
+    .about-section { 
+        padding: 0 20px;
+    }
+} 
+
+@media (max-width: 536px) {
+    .pie-image-1, .pie-image-2 {
+        margin-bottom: 15px;
+    }
+
+    .lets-talk {
+        padding: 40px;
+    }
     
- }
+    .top-footer {
+        padding: 20px;
+    }
+} 
+
+@media screen and (max-width: 1330px) {
+    .how-responsive-works .accordion-button {
+        width: 500px;
+    }
+    .how-responsive-works .accordion-body {
+        width: 450px;
+    }
+} 
+
+@media screen and (max-width: 1235px) {
+    .logo {
+        width: 200px;
+        margin-left: -25px;
+    }
+} 
+
+@media (max-width: 1199px) {
+    .how-responsive-works .accordion-button {
+        width: 460px;
+    }
+
+    .how-responsive-works .accordion-body {
+        width: 425px;
+    }
+}
+
+@media (max-width: 1165px) {
+    .how-responsive-works .accordion-button {
+        width: 450px;
+    }
+
+    .how-responsive-works .accordion-body {
+        width: 420px;
+    }
+}
+
+@media (max-width: 1145px) {
+    .how-responsive-works .accordion-button {
+        width: 385px;
+    }
+
+    .how-responsive-works .accordion-body {
+        width: 360px;
+    }
+}
+
+@media (max-width: 1039px) {
+    .how-responsive-works .accordion-button {
+        width: 345px;
+    }
+
+    .how-responsive-works .accordion-body {
+        width: 312px;
+    }
+}
+
+@media (max-width: 1077px) {
+    .tab-pane p { 
+        width: 375px; 
+    }
+
+}
+
+@media (max-width: 993px) {
+    .tab-pane p { 
+        width: 100%; 
+    }
+    
+    .how-responsive-works .accordion-button {
+        width: 100%;
+    }
+    
+    .how-responsive-works .accordion-body {
+        width: 100%;
+    }
+}

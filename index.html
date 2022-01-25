@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Favicon -->
 
@@ -34,7 +34,11 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="imgs/main-logo.png" height="60px"></a>
+            <div class="logo">
+              <a href="#">
+                <img src="imgs/main-logo.png">
+              </a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -84,9 +88,9 @@
   <div class="mast-head">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6">
-          <h1 class="">Be<br><strong>Responsive</strong></h1>
-          <p class="lead">The first personalized coaching platform for managers and teams that is fully integrated into your workflow—you and your team build capabilities while delivering on your goals.</p>
+        <div class="col-lg-6 be-responsive">
+          <h1>Be<br><strong>Responsive</strong></h1>
+          <p class="lead">The first personalized coaching platform for managers and teams that is fully integrated into your workflow so you can build capabilities while delivering on your goals.          </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <a href="#lets-talk"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Let's Talk</button></a>
             <a href="#features-section"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button></a>
@@ -129,53 +133,59 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Responsive uses real-world feedback, neuroscience research, and leading people management practices to coach teams toward greater success.</h1>
-          <img src="imgs/twenty-percent-employees.png" style="margin-right:60px;"><img src="imgs/dollar-dollar-lost.png" style="margin-right:60px;"><img src="imgs/sixty-percent-new.png">
+          <h1>A Coaching Platform for Your Entire Team </h1>
+          <p>Intelligent people-centered growth, performance, and analytics</p>
+          <div>
+            <img class="pie-image-1" src="imgs/1.png">
+            <img class="pie-image-2" src="imgs/2b.png">
+            <img class="pie-image-3" src="imgs/3.png">
+          </div>
+          <h4 class="space-top">Responsive uses real-world feedback, neuroscience research, and leading people management practices to coach teams toward greater success.</h4>
         </div>
       </div>
     </div>
   </div>
   <div class="features-section text-center" id="features-section">
     <div class="container">
-      <div class="row">
+      <!--div class="row">
         <div class="col-md-12">
           <img src="imgs/features-icon.svg" class="feature-icon">
           <h1>We are Shaping the Future for Successful Teams</h1>
           <p>Responsive is designed to provide intelligent, people-centered learning, growth, and performance coaching.</p>
         </div>
-      </div>
+      </div-->
       <div class="row features-row">
         <div class="col-md-4">
           <img src="imgs/icon-1.png">
-          <h4>Increase Emotional Intelligence</h4>
-          <p>Highly targeted action learning and customized growth opportunities relevant to teams right.</p>
+          <h4>Cultivate Social & Emotional Awareness</h4>
+          <p>With Responsive, teams innovate and perform more successfully together, producing more inclusive, diverse, and equitable results.</p>
         </div>
         <div class="col-md-4">
           <img src="imgs/icon-2.png">
-          <h4>More Successful Managers</h4>
-          <p>Continuously adapts to your workflow and provide you relevant growth coaching.</p>
+          <h4>Equip Managers for Success</h4>
+          <p>Managers receive relevant insights, targeted resources, and actionable opportunities for experiential learning in their day-to-day work.</p>
         </div>
         <div class="col-md-4">
           <img src="imgs/icon-3.png">
-          <h4>Continuously Adaptive Learning</h4>
-          <p>Leading-edge research and team dynamics to provide data-driven recommendations.</p>
+          <h4>Continuously Adaptive Coaching</h4>
+          <p>Responsive adjusts and adapts to individual and team needs, providing coaching opportunities that sustain growth and performance.</p>
         </div>
       </div>
       <div class="row features-row">
         <div class="col-md-4">
           <img src="imgs/icon-4.png">
-          <h4>Build Cohesive Distributed Teams</h4>
-          <p>Keep your inputs private. No personal data is shared within teams or within organization.</p>
+          <h4>Build Cohesive & Successful Teams</h4>
+          <p>Responsive provides unique opportunities for localized, hybrid, remote, and distributed teams to build authentic and productive relationships.</p>
         </div>
         <div class="col-md-4">
           <img src="imgs/icon-5.png">
-          <h4>Reduce Team Turnover</h4>
-          <p>Integrates with your calendar and existing workflow tools to make daily practice easy.</p>
+          <h4>Psychological Safety</h4>
+          <p>Trust and privacy are vital for learning to flourish. We make sure identifiable data is visible only to the individual user and is never shared with others.</p>
         </div>
         <div class="col-md-4">
           <img src="imgs/icon-6.png">
           <h4>Active Learning Community</h4>
-          <p>Peer mentor matching and user community provide anonymous support and insights.</p>
+          <p>Responsive’s user community and peer matching features provide anonymous support, mentorship, and insights.</p>
         </div>
       </div>
     </div>
@@ -488,54 +498,54 @@
   <!-- Main Sections -->
   <div class="main-sections" id="main-features-section">
     <div class="container">
-      <div class="row mb-5">
+      <div class="row mb-5 space">
         <div class="col-md-12 text-center">
           <h1>Features</h1>
         </div>
       </div>
-      <div class="row flex-row-reverse mobile-row align-items-center">
+      <div id="human-centered" class="row flex-row-reverse mobile-row align-items-center">
         <div class="col-md-6 mobile-column">
           <img src="imgs/human-centered-main.png">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 section-center">
           <h2>Human-Centered</h2>
-          <p>Responsive is personalized to focus individuals and teams on crucial growth opportunities that sustain success. Utilizing frequent micro-feedback, neuroscience research, leading-edge management approaches, and machine learning, each team member receives unique learning opportunities relevant to the team’s success.</p>
+          <p>Responsive utilizes frequent micro-feedback, neuroscience research, leading-edge management approaches, and data science to focus individuals and teams on crucial growth opportunities that sustain success.</p>
         </div>
       </div>
-      <div class="row mobile-row align-items-center">
+      <div id="privacy" class="row mobile-row align-items-center">
         <div class="col-md-6 mobile-column">
           <img src="imgs/privacy-main.png">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 section-center">
           <h2>Privacy</h2>
-          <p>Just like working one-on-one with a coach, confidentiality is crucial for the psychological safety needed so learning can flourish. With Responsive, feedback is used only as an input and is never shared directly. This way, individuals and teams can focus on learning and growth, not evaluations. Anonymized benchmarking helps you understand where you and your team are compared with others.</p>
+          <p>A sense of psychological safety is vital for learning and growth—especially for new managers and individual contributors. With Responsive, identifiable data is never shared with other users or your company. Anonymized benchmarking helps your team see how it compares with other teams inside the company and beyond.</p>
         </div>
       </div>
-      <div class="row flex-row-reverse align-items-center">
+      <div id="agile-adaptive" class="row flex-row-reverse align-items-center">
         <div class="col-md-6">
           <img src="imgs/agile-main.png" class="laptopImage">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 section-center">
           <h2>Agile & Adaptive</h2>
-          <p>Responsive continuously adapts to provide teams with growth opportunities relevant to the team’s immediate needs by capturing input from team members, calendars, people changes, distributed teams, and more.</p>
+          <p>Responsive continuously adapts to provide individuals and teams with insights and growth opportunities relevant to current workflow, performance goals, and other factors. Frequent feedback from users makes it possible to quickly adapt and respond to changing team needs.</p>
         </div>
       </div>
       <div class="row mobile-row align-items-center">
         <div class="col-md-6 mobile-column">
           <img src="imgs/scalable-main.png">
         </div>
-        <div class="col-md-6">
-          <h2>Scalable & Portable </h2>
-          <p>Teams, jobs, and companies are scaling like never before. Responsive is designed to be your personalized coach from team to team, job to job, and company to company, so you can continue your development and growth throughout your career.</p>
+        <div class="col-md-6 section-center">
+          <h2>Scalable & Portable</h2>
+          <p>Companies are evolving and scaling like never before. Responsive is designed to be your personalized coach from team to team, job to job, and company to company, so you can continuously develop and grow in your career.</p>
         </div>
       </div>
       <div class="row flex-row-reverse align-items-center">
         <div class="col-md-6">
           <img src="imgs/organizational-main.png" class="laptopImage">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 section-center">
           <h2>Organizational Insights</h2>
-          <p>Responsive Analytics provides companies with crucially dynamic insights into organizational health, culture, and areas of opportunity while maintaining individual and team privacy so people can be focused on learning and team productivity. By capturing continuous micro-feedback from users, insights are much more relevant than an annual engagement survey. Responsive Analytics is based on actual experiences rather than perceptions.</p>
+          <p>Annual performance reviews and engagement surveys don’t provide immediate and relevant feedback. By capturing continuous micro-feedback from users in real time, Responsive Insights analyzes actual behaviors rather than perceptions. This gives companies a dynamic view into organizational health, culture, and development opportunities, while ensuring individual and team privacy.</p>
         </div>
       </div>
     </div>
@@ -550,8 +560,8 @@
         </div>
         <div class="col-lg-5 col-md-12 second-column-about">
           <h1>About Us</h1>
-          <p>Responsive is designing the future of individual, team, and organization success. Our diverse team brings together expertise in industrial & organizational psychology, learning & development, executive and team coaching, and computational psychology to design technologies that are transforming the future of work.</p>
-          <p>Our mission is to maximize human potential through innovations that reshape learning, collaboration, teamwork, and performance.</p>
+          <p>Responsive is transforming the future of work. By bringing together expertise in human performance, organizational psychology, learning & development, executive and team coaching, and computational psychology, we are redesigning how individuals, teams, and organizations achieve sustained success.</p>
+          <p>Our mission is to maximize human potential through innovations that reshape learning, teamwork, and performance.</p>
         </div>
       </div>
     </div>
@@ -582,12 +592,10 @@
       <div class="row">
         <div class="col-md-4">
           <h1>Let's Talk</h1>
-          <p>Responsive, Inc.<br>
-            Palo Alto, California</p>
-          <p>Interested in learning how Responsive could help you, your team, or your company? Get in touch with us!</p>
+          <p>Interested in learning how Responsive can help you, your team, or your company? Get in touch with us!</p>
         </div>
         <div class="col-md-8">
-          <form>
+          <form action="mailto:michel@beresponsive.ai" method="post">
             <div class="form-row">
               <div class="form-group">
                 <input type="text" class="form-control" id="inputAddress" placeholder="Name">
@@ -624,19 +632,22 @@
               </div>
             </div>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button name="submitBtn" type="submit" value="Submit" class="btn btn-primary">Submit</button>
           </form>
+          <div class="message-sent">
+            <p class="thankyou-message">Thank you for your message. It has been sent.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer>
+  <footer class="space-top">
     <div class="top-footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 space-bottom">
             <img src="imgs/footer-logo.png" height="50px">
             <h4 style="margin-bottom:16px;">Get in touch</h4>
             <p>Our latest news, articles, and resources, sent to your inbox about once a month.</p>
@@ -666,27 +677,27 @@
           </div>
           <div class="col-lg-2 col-md-6">
           </div>
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 space-bottom">
             <h4>Solutions</h4>
             <ul class="list-unstyled">
-              <li>Managers</li>
-              <li>Teams</li>
-              <li>Companies</li>
+              <li onclick="document.getElementById('home-tab').click()"><a href="#home-tab" class="footer-list-item">Managers</a></li>
+              <li onclick="document.getElementById('profile-tab').click()"><a href="#profile-tab" class="footer-list-item">Teams</a></li>
+              <li onclick="document.getElementById('contact-tab').click()"><a href="#contact-tab" class="footer-list-item">Companies</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-2 col-md-6 space-bottom">
             <h4>Features</h4>
             <ul class="list-unstyled">
-              <li>Human-centered</li>
-              <li>Privacy</li>
-              <li>Integrations</li>
+              <li><a href="#privacy" class="footer-list-item">Privacy</a></li>
+              <li><a href="#human-centered" class="footer-list-item">Human-centered</a></li>
               <li>Community</li>
+              <li><a href="#agile-adaptive" class="footer-list-item">Integrations</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-6">
             <h4>Company</h4>
             <ul class="list-unstyled">
-              <li>About</li>
+              <li><a href="#about-section" class="footer-list-item">About Us</a></li>
             </ul>
           </div>
         </div>
@@ -716,9 +727,9 @@
         $link.tab('show');
       }
     </script>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
     <!--
