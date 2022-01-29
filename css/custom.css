@@ -475,7 +475,7 @@ footer ul li{
 }
 .navbar-light .navbar-toggler {
     color: white;
-    border-color: white;
+    border: none;
     padding: 10px;
 }
 .navbar-light .navbar-toggler-icon {
